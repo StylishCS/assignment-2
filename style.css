@@ -1,104 +1,45 @@
-body {
-    background-color: blueviolet;
-    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png);
-    border: 10px;
-    border-style: ridge;
-    border-color: aqua;
-    padding: 20px;
-    padding-top: 0;
-    margin-top: 0;
+body{
+    background-color: hsl(0deg 0% 100%);
 }
 
-h2 {
-    color: aqua;
-}
-
-p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 17px;
-    color: aliceblue;
-    line-height: 25px;
-    text-indent: 30px;
-}
-
-li {
-    font-style: italic;
-    color: gold;
-    margin: 15px;
-}
-
-ol{
-    border-style: dotted;
-    border-color: aqua;
-    border-width: 5px;
-    list-style: lower-roman;
-    padding-left: 20px;
-}
-
-
-ul.nav {
-    padding-left: 0px;
-    text-align: center;
-}
-ul.nav > li {
-    display: inline-block;
-    padding: 10px 20px;
-}
-
-
-#ol-wid{
-    width: fit-content;
-    outline: 10px solid gold; border-radius: 30px;
-    position: relative;
-    left: 43%;
-}
-
-#ul-wid{
-    width: fit-content;
-    border-style: dotted;
-    border-color: aqua;
-    border-width: 5px;
-    list-style: circle;
-    outline: 10px solid gold; border-radius: 30px;
-    position: relative;
-    left: 30%;
-}
-
-#header{
-   text-align: center;
-   vertical-align: middle;
-   letter-spacing: 2px;
-   font-style: italic;
-   background-image: url(https://media.istockphoto.com/id/1271408351/photo/digital-screen-with-encryption-data-background-big-data-with-binary-computer-code-safe-your.jpg?b=1&s=170667a&w=0&k=20&c=B1XzkENUPMrS-vy9LiYWE1Aadh-tDHlpgA8ebrEV--s=);
-   height: 50px;
-   color: gold;
-   font-size: 40px;
-   text-shadow: 3px 3px 3px red;
-   letter-spacing: 10px;
-   font-weight: bold;
-   font-variant:small-caps
+.header{
+    background-color: hsl(0 0% 93% / 1);
+    margin: 0px;
 }
 
 img{
-    display: flex;
-    border-style: double;
-    border-radius: 20px;
-    border-color: gold;
-    border-width: 5px;
+    position: relative;
+    width: 180px;
+    left: 500px;
+    bottom: 135px;
+    padding: 0;
+    margin: 0;
+    top: 0px;
+}
+
+h1{
+    position: absolute;
+    left: 700px;
+    top: 30px;
+}
+
+p{
+    padding-left: 500px;
+    padding-right: 500px;
+    
+    font-size: large;
+}
+
+.purple{
+    color: hsl(337deg 64% 54%);
 }
 
 button{
-    background: transparent;
-    border: solid black;
-    color: yellow;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-a{
-    color: purple;
-}
-
-input{
-    margin: 10px;
+    background-color: hsl(337deg 64% 54%);
+    color: white;
+    border-radius: 6px;
+    padding: 10px;
+    width: 150px;
+    position: relative;
+    left: 700px;
 }
